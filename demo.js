@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         myplugins
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  one plugin!
 // @author       lzx
 // @match        *://*
@@ -13,5 +13,5 @@
 (function () {
   "use strict";
 
-  console.log("第一个脚本");
+  console.log("脚本");
 })();
