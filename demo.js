@@ -15,7 +15,7 @@
 // @cloudCat
 // @exportCookie domain=.juejin.cn
 // @exportValue  掘金.aid,掘金.uuid,掘金._signature
-// @match undefined
+// @match https://juejin.cn/
 // ==/UserScript==
 
 (function () {
