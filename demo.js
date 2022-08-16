@@ -1,14 +1,21 @@
 // ==UserScript==
-// @name         myplugins
+// @name         掘金代码社区签到
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  one plugin!
 // @author       lzx
-// @match        https://juejin.cn/
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
-// @license       AGPL -3.0
-// @grant        none
-// @require      http://code.jquery.com/jquery-migrate-1.2.1.min.js
+// @crontab      * 1-23 once * *
+// @grant GM_xmlhttpRequest
+// @grant GM_notification
+// @grant GM_getValue
+// @connect api.juejin.cn
+// @grant GM_xmlhttpRequest
+// @require https://cdn.jsdelivr.net/npm/scriptcat-lib@1.1.3/dist/gm.js
+// @definition https://cdn.jsdelivr.net/npm/scriptcat-lib@1.1.3/src/types/gm.d.ts
+// @cloudCat
+// @exportCookie domain=.juejin.cn
+// @exportValue  掘金.aid,掘金.uuid,掘金._signature
+// @match undefined
 // ==/UserScript==
 
 (function () {
