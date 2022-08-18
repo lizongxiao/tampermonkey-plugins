@@ -11,10 +11,11 @@
 (function () {
   "use strict";
   var button = document.createElement("button"); //创建一个按钮
-  button.textContent = "一键点赞评论"; //按钮内容
+  button.textContent = "一键开启躺平学习模式"; //按钮内容
   button.style.width = "90px"; //按钮宽度
   button.style.height = "28px"; //按钮高度
-  button.style.align = "center"; //文本居中
+  button.style.textAlign = "center !important"; //文本居中
+  button.style.lineHeight = "25px"; //文本行高
   button.style.color = "white"; //按钮文字颜色
   button.style.background = "#e33e33"; //按钮底色
   button.style.border = "1px solid #e33e33"; //边框属性
