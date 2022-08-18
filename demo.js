@@ -22,7 +22,8 @@
   button.style.borderRadius = "4px"; //按钮四个角弧度
   button.addEventListener("click", clickBotton); //监听按钮点击事件
   function clickBotton() {
-    alert('尊敬的辉贤，检测到您是会员用户，开始准备开始躺平学习模式 ')
+    alert('开始准备开始躺平学习模式 ')
+    preventDefult();
   }
   var like_comment = document.getElementById("divHead2"); //getElementsByClassName 返回的是数组，所以要用[] 下标
     like_comment.appendChild(button); //把按钮加入到 x 的子节点中
