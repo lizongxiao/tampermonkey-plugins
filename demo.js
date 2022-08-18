@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         掘金代码社区签到
+// @name         学习助手
 // @namespace    https://www.cnblogs.com/zhengzhijian/p/16599154.html
 // @version      0.5
 // @description  测试
@@ -14,7 +14,7 @@
 // @definition https://cdn.jsdelivr.net/npm/scriptcat-lib@1.1.3/src/types/gm.d.ts
 // @cloudCat
 // @exportCookie domain=.juejin.cn
-// @match https://euniv.zte.com.cn/kng/plan/video
+// @include https://euniv.zte.com.cn/kng/plan/video
 // ==/UserScript==
 
 (function () {
