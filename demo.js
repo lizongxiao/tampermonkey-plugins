@@ -5,16 +5,7 @@
 // @description  测试
 // @author       宽于律己、严于律人
 // @crontab      * 1-23 once * *
-// @grant GM_xmlhttpRequest
-// @grant GM_notification
-// @grant GM_getValue
-// @connect api.juejin.cn
-// @grant GM_xmlhttpRequest
-// @require https://cdn.jsdelivr.net/npm/scriptcat-lib@1.1.3/dist/gm.js
-// @definition https://cdn.jsdelivr.net/npm/scriptcat-lib@1.1.3/src/types/gm.d.ts
-// @cloudCat
-// @exportCookie domain=.juejin.cn
-// @include https://euniv.zte.com.cn/kng/plan/video
+// @match        *://*.zte.com.cn/*
 // ==/UserScript==
 
 (function () {
